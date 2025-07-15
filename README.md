@@ -3,7 +3,7 @@
 <br/>
 <div align="center">
   <a href="https://github.com/BornPaster/bruce">
-    <img src="https://i.imgur.com/uBjkI1D.png" alt="Logo" >
+    <img src="https://i.imgur.com/wa8n82V.png" alt="Logo" >
   </a>
   
   <h2 align="center">Bruce™</h3>
@@ -23,6 +23,25 @@
 
 ### Requirements
 * Windows OS
+
+---------------------------------------
+
+### Usage
+
+```python 
+from bruce import init, bracks, bruceformatter
+import logging
+
+init()
+
+logger = logging.getLogger("bruce-demo")
+handler = logging.StreamHandler()
+handler.setFormatter(bruceformatter("%(levelname)s: %(message)s"))
+logger.addHandler(handler)
+logger.setLevel(logging.INFO)
+
+logger.info(f"this is a test log! {bracks('test brackets')}")
+```
 
 ---------------------------------------
 
