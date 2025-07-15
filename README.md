@@ -6,7 +6,7 @@
     <img src="https://i.imgur.com/uBjkI1D.png" alt="Logo" >
   </a>
   
-  <h2 align="center">Lumina™</h3>
+  <h2 align="center">Bruce™</h3>
 
   <p align="center">
     A very sleek, modern, and monochrome style logger modification.
